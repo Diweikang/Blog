@@ -23,6 +23,11 @@ console.log(Person.prototype)
 
 ## 何为__proto__
 JavaScript中每个对象实例(除null)都有__proto__属性，指向对象实例的原型。
+
+为何null除外？
+借用<<你不知道的JavaScript>>中对null的解释：null是js中的一个**基本数据类型**,之所以显示为'object'是因为对象在底层被表示为二进制,在js中二进制前三位都为0会被判断为object类型,null的二进制表示全是0,自然前三位是0,所有typeof null会返回'object' 这是语言层面的bug。
+
+null是属于基本数据类型，console打印结果也是‘null’，那么它也就不具备__proto__属性，也就不会有原型对象。
 #### 例2
 ```js
 function Person() {
@@ -102,4 +107,33 @@ console.log(Object.protype.__proto__)
 图示表示Person完整的原型链：
 ![函数原型](./image/3prototype.png)
 
-总结：函数prototype属性实现了原型，实例对象的__proto__属性实现了原型链。
+总结：以上学习了何为原型、原型链，原型、函数、实例对象之间的关系，以及原型链的形成，文中如有不妥之处希望大家指出。
+
+###补充
+JavaScript中函数也是对象，那么函数的原型又是什么？
+#### 例6
+```js
+function foo(){
+}
+// 打印结果是一个函数
+console.log(foo.__proto__)
+// 打印结果是true
+console.log(foo.__proto__ === Function.prototype)
+```
+其实JavaScript中函数都是Function的实例，那么foo.__proto__就指向了Function.prototype。根据此条结论也就能解释以下结果：
+
+```js
+  // 打印结果是true，Function也是对象
+  console.log(Function instanceof Object)
+  // 打印结果是true，Function也是函数
+  console.log(Function instanceof Function)
+  // 打印结果是true，Object也是一个构造函数
+  console.log(Object instanceof Function)
+  // 打印结果是true，Object是函数是Function的实例
+  console.log(Object.__proto__ === Function.prototype)
+  // 打印结果是true
+  console.log(Function.__proto__ === Function.prototype)
+  // 打印结果是true
+  console.log(Function.prototype.__proto__ === Object.prototype)
+```
+instanceof的判断规则是：沿着左侧的__proto__这条线来找，同时沿着右侧的prototype这条线来找，如果两条线能找到同一个引用，即同一个对象，那么就返回true。如果找到终点还未重合，则返回false。
