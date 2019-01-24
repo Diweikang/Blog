@@ -4,3 +4,5 @@
 ## JavaScript
 
 1. [JavaScirpt之原型/原型链](https://github.com/Diweikang/Blog/blob/master/JavaScript/1.%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/JavaScript%E4%B9%8B%E5%8E%9F%E5%9E%8B%E3%80%81%E5%8E%9F%E5%9E%8B%E9%93%BE.md)
+
+2. [JavaScirpt之'瞎说'作用域](https://github.com/Diweikang/Blog/blob/master/JavaScript/2.%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/JavaScript%E4%B9%8B%E5%8E%9F%E5%9E%8B%E3%80%81%E5%8E%9F%E5%9E%8B%E9%93%BE.md)
