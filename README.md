@@ -9,4 +9,4 @@
 
 3. [深入理解JavaScirpt之执行上下文与执行上下文栈](https://github.com/Diweikang/Blog/blob/master/JavaScript/3.%20%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E4%B8%8E%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88/JavaScript%E4%B9%8B%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E4%B8%8E%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88.md)
 
-4. [深入理解JavaScirpt之变量对象]()
+4. [深入理解JavaScirpt之变量对象](https://github.com/Diweikang/Blog/blob/master/JavaScript/4.%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1/JavaScript%E4%B9%8B%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)
