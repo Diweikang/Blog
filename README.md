@@ -8,3 +8,5 @@
 2. [深入理解JavaScirpt之'瞎说'作用域](https://github.com/Diweikang/Blog/blob/master/JavaScript/2.%E4%BD%9C%E7%94%A8%E5%9F%9F/JavaScript%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F.md)
 
 3. [深入理解JavaScirpt之执行上下文与执行上下文栈](https://github.com/Diweikang/Blog/blob/master/JavaScript/2.%E4%BD%9C%E7%94%A8%E5%9F%9F/JavaScript%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F.md)
+
+4. [深入理解JavaScirpt之变量对象](https://github.com/Diweikang/Blog/blob/master/JavaScript/2.%E4%BD%9C%E7%94%A8%E5%9F%9F/JavaScript%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F.md)
