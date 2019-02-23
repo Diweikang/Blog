@@ -11,5 +11,4 @@
 
 4. [深入理解JavaScirpt之变量对象](https://github.com/Diweikang/Blog/blob/master/JavaScript/4.%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1/JavaScript%E4%B9%8B%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)
 
-5. [深入理解JavaScript之作用域链]
-(https://github.com/Diweikang/Blog/blob/master/JavaScript/5.%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE/JavaScript%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE.md)
+5. [深入理解JavaScirpt之作用域链](https://github.com/Diweikang/Blog/blob/master/JavaScript/5.%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE/JavaScript%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE.md)
