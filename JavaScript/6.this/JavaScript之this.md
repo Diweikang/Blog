@@ -209,4 +209,5 @@
   功力深厚的同学建议读读讶羽大大和汤姆大叔的这两篇文章，都有从ECMAScript规范角度解释为什么this指向的原理。
 
   [深入理解JavaScript系列（13）：This? Yes,this!](http://www.cnblogs.com/TomXu/archive/2012/01/17/2310479.html)
+  
   [JavaScript深入之从ECMAScript规范解读this](https://github.com/mqyqingfeng/Blog/issues/7)
