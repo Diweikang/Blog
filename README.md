@@ -1,6 +1,6 @@
 # Blog content
 
-##深入理解JavaScript
+##深入理解JavaScript原理知识
 
 1. [深入理解JavaScirpt之原型/原型链](https://github.com/Diweikang/Blog/blob/master/JavaScript/1.%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/JavaScript%E4%B9%8B%E5%8E%9F%E5%9E%8B%E3%80%81%E5%8E%9F%E5%9E%8B%E9%93%BE.md)
 
@@ -11,3 +11,11 @@
 4. [深入理解JavaScirpt之变量对象](https://github.com/Diweikang/Blog/blob/master/JavaScript/4.%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1/JavaScript%E4%B9%8B%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)
 
 5. [深入理解JavaScirpt之作用域链](https://github.com/Diweikang/Blog/blob/master/JavaScript/5.%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE/JavaScript%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE.md)
+
+6. [深入理解JavaScirpt之this](./JavaScript/6.this/JavaScript之this.md)
+
+##JavaScript常见操作
+
+##浏览器相关
+
+1. [浏览器渲染原理](./Browser/1.浏览器渲染原理/1.浏览器渲染原理.md)
