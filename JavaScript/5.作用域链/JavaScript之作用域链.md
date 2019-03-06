@@ -124,7 +124,7 @@
         b: undefined,
         inner: reference to innerFunction
       },
-      Scope: [AO, Scope]
+      Scope: [AO, globalContext.VO]
     ]
   ```
   6. outer函数执行代码，活动对象修改
@@ -138,7 +138,7 @@
         b: 'outer-inner',
         inner: reference to innerFunction
       },
-      Scope: [AO, Scope]
+      Scope: [AO, globalContext.VO]
     ]
   ```
   inner函数调用,创建函数执行上下文，并且压栈
@@ -176,7 +176,7 @@
           callee: reference to outerFunction
         }
       },
-      Scope: [AO, Scope]
+      Scope: [AO, outerContext.AO, globalContext.VO]
     ]
   ```
   10. inner函数执行代码，打印输出变量a值，inner执行上下文的作用域链中保存了inner、outer、global执行上下文的变量对象，先在inner变量对象中找不到变量a，再去outer的变量对象中查找也未找到，最后在global变量对象中找到变量a，然后打印输出。
