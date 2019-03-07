@@ -16,7 +16,8 @@
 
 7. [深入理解JavaScirpt之闭包](./JavaScript/7.闭包/JavaScript深入理解闭包.md)
 
-##JavaScript常见操作
+## JavaScript常见操作
+1. [深入JavaScript之call/aplly模拟实现](./JavaScript常见操作/1.JavaScript深入之call和apply/1.call和apply模拟实现.md)
 
 ## 浏览器相关
 
