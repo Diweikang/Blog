@@ -68,7 +68,7 @@ console.log(Person.prototype.constructor === Person)
 ```
 我们总结下构造函数、原型、实例对象之间的关系。
 构造函数通过prototype属性指向原型对象，通过new构造函数得到实例，实例通过__proto__指向原型对象，原型对象通过constructor属性又指向构造函数。
-![函数原型](./image/2prototype.png)
+![函数原型](./image/2prototype.jpg)
 
 ## 原型链
 上文中我们已经讨论过，每个实例对象都有__proto__属性指向它的原型对象，原型对象也有__proto__属性指向原型对象的原型对象，层层向上直到对象的原型对象为null，我们把这种层层向上查找的结构叫作**原型链**。
@@ -105,7 +105,7 @@ console.log(Object.protype.__proto__)
 上例中输出结果是null，在原型链中Object.prototype就是所有原型链的末端。
 
 图示表示Person完整的原型链：
-![函数原型](./image/3prototype.png)
+![函数原型](./image/3prototype.jpg)
 
 总结：以上学习了何为原型、原型链，原型、函数、实例对象之间的关系，以及原型链的形成，文中如有不妥之处希望大家指出。
 
