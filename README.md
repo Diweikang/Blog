@@ -19,6 +19,8 @@
 ## JavaScript常见操作
 1. [深入JavaScript之call/aplly模拟实现](./JavaScript常见操作/1.JavaScript深入之call和apply/1.call和apply模拟实现.md)
 
+2. [深入JavaScript之bind模拟实现](./JavaScript常见操作/2.bind模拟实现/2.JavaScript深入之bind模拟实现.md)
+
 ## 浏览器相关
 
 1. [浏览器渲染原理](./Browser/1.浏览器渲染原理/1.浏览器渲染原理.md)
