@@ -21,6 +21,8 @@
 
 2. [深入JavaScript之bind模拟实现](./JavaScript常见操作/2.bind模拟实现/2.JavaScript深入之bind模拟实现.md)
 
+3. [深入JavaScript之深浅拷贝](./JavaScript常见操作/3.JavaScript深浅拷贝/3.JavaScript的深浅拷贝.md)
+
 ## 浏览器相关
 
 1. [浏览器渲染原理](./Browser/1.浏览器渲染原理/1.浏览器渲染原理.md)
