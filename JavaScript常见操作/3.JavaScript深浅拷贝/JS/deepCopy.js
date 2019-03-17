@@ -5,7 +5,7 @@ var deepCopy = function(source) {
   let target = source instanceof Array ? [] : {}
   for (let key in source) {
     if (source.hasOwnProperty(key)) {
-      target[key] = typeof source === 'object' ? deepCopy(source[key]) : source[key]
+      target[key] = typeof source[key] === 'object' ? deepCopy(source[key]) : source[key]
     }
   }
   return target
