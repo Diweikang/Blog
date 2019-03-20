@@ -27,6 +27,8 @@
 
 4. [JavaScript必会之类型判断](./JavaScript常见操作/4.类型判断/4.类型判断.md)
 
+4. [JavaScript必会之数组去重](./JavaScript常见操作/5.数组去重/5.JavaScript数组去重.md)
+
 ## 浏览器相关
 
 1. [浏览器渲染原理](./Browser/1.浏览器渲染原理/1.浏览器渲染原理.md)
